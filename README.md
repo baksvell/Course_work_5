@@ -42,21 +42,26 @@ delete_tables: Удаление таблиц из быза данных.
 Чтобы проект корректно заработал на вашем ПК необходимо:
 
 Клонировать проект себе в репозиторий и локально на ПК
-```git@github.com:baksvell/Course_work_5.git
+```
+git@github.com:baksvell/Course_work_5.git
 ```
 Установить виртуальное окружение venv
-```python3 -m venv venv для MacOS и Linux систем
+```
+python3 -m venv venv для MacOS и Linux систем
 python -m venv venv для windows
 ```
 Активировать виртуальное окружение
-```source venv/bin/activate для MasOs и Linux систем
+```
+source venv/bin/activate для MasOs и Linux систем
 venv\Scripts\activate.bat для windows
 ```
 установить файл с зависимостями
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
 ```
 Заполнить корректно в файле 'database.ini', данными с вашей БД в переменную
-```host=<localhost> как правило 
+```
+host=<localhost> как правило 
 user=<ваше имя зарегестрированного в postgreSQL>
 password=<Ваш пороль от БД>
 port=<5432> как правило
